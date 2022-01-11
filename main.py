@@ -81,7 +81,7 @@ def logicalydefeatpassword():
       gender = input("Input gender of person being hacked. Enter NA if not avaiblible.")
       animal = input("Input favorite animal of person being hacked. Enter NA if not avaiblible.")
       color = input("Please input the person who is being hacked favorite color. Enter NA if not avaiblible.")
-      number = input("Please enter the favorite number of the person who you are hacking. Enter NA if not avaiblible.")azaz
+      number = input("Please enter the favorite number of the person who you are hacking. Enter NA if not avaiblible.")
       if(birthday != "NA"):
         guess = dob[0] + dob[1] + dob[2]
         if guess == user_pass:
